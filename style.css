@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    line-height: 1.8;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+nav {
+    background-color: #0f0c11;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    object-position: center;
+    display: block;
+}
+
+
+main {
+    display: flex;
+    padding: 25px;
+}
+
+section {
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    width: 30%;
+    background-color: #fff3e0;
+    padding: 20px;
+    border-left: 6px solid #ff9800;
+}
+
+.float-left {
+    float: left;
+    width: 180px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 4px solid #3f51b5;
+}
+
+.float-right {
+    float: right;
+    width: 160px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 4px solid #ff9800;
+}
+
+.about-bg {
+    background-color: #e8f5e9;
+}
+
+.service-box {
+    background-color: #e3f2fd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-left: 6px solid #2196f3;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+    justify-content: center;
+}
+
+
+
+.portfolio-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+footer {
+    clear: both;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.portfolio-page section {
+    width: 100%;
+}
+
